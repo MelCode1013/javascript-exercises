@@ -1,7 +1,9 @@
+//use typeof to determine type
 const sumAll = function(a, b) {
   if ((typeof a === "string") || (typeof b === "string")) {
     return 'ERROR'
 } else if (a < 0 || b < 0) {
+    //this returns error for negative nums
     return 'ERROR'
 } else if ((a >= 0) && (b >= 0)) {
   let min = Math.min(a, b)
