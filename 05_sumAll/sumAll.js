@@ -14,7 +14,6 @@ const sumAll = function(a, b) {
       return sum 
 } else {
     return 'ERROR'
-    
 }  
 
 };
